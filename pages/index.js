@@ -29,26 +29,32 @@ export default function Home() {
                     Now Serving : Num
                 </h2>
                 <h2>Last Number: {ticketCount-1}</h2>
+                <div class="btn-group">
                 <button onClick={createToken}>
                     Take a Number
                 </button>
+                </div>
             </div>
             <div className='container'>
                 <div className='counter'>
                     <span className='dot'></span>
                     <h2 align="center" >Counter 1</h2>
+                    <h2>Current Number:</h2>
                 </div>
                 <div className='counter'>
                     <span className='dot'></span>
                     <h2 align="center" >Counter 2</h2>
+                    <h2>Current Number:</h2>
                 </div>
                 <div className='counter'>
                     <span className='dot'></span>
                     <h2 align="center" >Counter 3</h2>
+                    <h2>Current Number:</h2>
                 </div>
                 <div className='counter'>
                     <span className='dot'></span>
                     <h2 align="center" >Counter 4</h2>
+                    <h2>Current Number:</h2>
                 </div>
             </div>
         </div>
